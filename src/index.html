@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>赛耀设备管理系统</title>
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<script>
+  //获取浏览器可视个高度
+  var winHeight = document.documentElement.clientHeight;
+  winHeight  = winHeight - 350;
+
+  //分页条数
+  var per_page = 20;
+  //form
+  var formItemLayout = {
+    labelCol: {
+      span: 6,
+    },
+    wrapperCol: {
+      span: 14,
+    },
+  };
+</script>
+<body>
+
+<div id="root"></div>
+
+<script src="/index.js"></script>
+<script src="//cdn.bootcss.com/echarts/3.3.2/echarts.common.min.js"></script>
+</body>
+</html>
